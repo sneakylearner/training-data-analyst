@@ -21,6 +21,15 @@ cd training-data-analyst/courses/bdml_fundamentals
 ```
 ./ingest.sh
 ```
+^ If you get an error saying:
+```
+line 7: wget:command not found
+```
+You will need to run this code below:
+```
+sudo apt-get install wget
+```
+
 * Transform the raw data into an image:
 ```
 ./transform.py
